@@ -1,0 +1,123 @@
+@CHARSET "ISO-8859-1";
+
+#registerForm .form-control-feedback {
+    pointer-events: auto;
+}
+#registerForm .form-control-feedback:hover {
+    cursor: pointer;
+}
+
+#myCarousel {
+	padding: 0px;
+}
+
+body {
+	background-color: #F5F5F5;
+}
+
+.darkSection {
+	background-color: #2c3e50;
+	color: #F5F5F5;
+}
+
+.table thead {
+	background-color: #2c3e50;
+	color: #f5f5f5;
+}
+
+#marketplace-navbar{
+	top:110px;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}
+
+.showingTotal {
+	text-align: center;
+}
+
+/* To get Bootstrap's Nav Dropdown to expand on hover */
+/* .dropdown:hover .dropdown-menu { */
+/* 	display: block; */
+/* 	z-index: 1000; */
+/* } */
+
+
+.gborder{
+	padding: 10px;
+   
+    margin: 0;
+	background-color:transparent;
+	border: 1px ;
+    -moz-box-shadow:  2px 1px 1px 2px #cccccc;
+	-webkit-box-shadow:2px 1px 1px 2px #cccccc;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ctext{color: #2c3e50;}
+
+.carousel-showmanymoveone .carousel-control {
+   width: 4%;
+   background-image: none;
+}
+
+.carousel-showmanymoveone .carousel-control.left {
+   margin-left: 0;
+}
+
+.carousel-showmanymoveone .carousel-control.right {
+   margin-right: 0;
+}
+
+.carousel-showmanymoveone .cloneditem-1,
+.carousel-showmanymoveone .cloneditem-2,
+.carousel-showmanymoveone .cloneditem-3 {
+   display: none;
+}
+
+.carousel .item .col-xs-12 {
+   padding: 0;
+}
+
+
+.outt { display: none; }
+
+.leftLs, .leftLst {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+  left: 0;
+  width: 40px;
+  height: 100px;
+  box-shadow: 1px 2px 10px -1px rgba(0,0,0,.3);
+}
+
+.rightLs, .rightLst {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  width: 40px;
+  height: 100px;
+  box-shadow: 1px 2px 10px -1px rgba(0,0,0,.3);
+}
+
+.resCarousel {
+  float: left;
+  overflow: hidden;
+  padding: 0 15px;
+  width: 100%;
+}
+
+.resCarousel-inner {
+  transition: 1s ease all;
+  float: left;
+}
+
+.resCarousel-inner .item { float: left; }
+
+
+
